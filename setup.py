@@ -9,7 +9,7 @@ setup(
     author_email='yuvipanda@gmail.com',
     license='3 Clause BSD',
     packages=find_packages(),
-    entrypoints={
+    entry_points={
         'console_scripts': [
             'charliecloud-singleuser=charliecloud.singleuser:main'
         ]
